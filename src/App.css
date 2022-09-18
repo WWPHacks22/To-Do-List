@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  width: 80vw;
+  max-width: 60rem;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  margin: 2rem 0 2rem 0;
+}

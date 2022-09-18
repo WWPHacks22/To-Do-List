@@ -1,0 +1,45 @@
+.add-container {
+  position: sticky;
+  bottom: 2rem;
+
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+
+  border: 2px solid var(--primary);
+
+  box-shadow: 0px 4px 20px 2px hsla(230, 60%, 66%, 0.2);
+}
+
+.add-container input {
+  flex-grow: 1;
+  height: 2rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+
+  color: var(--text-primary);
+
+  font-size: 1rem;
+}
+
+.add-container input::placeholder {
+  color: var(--gray);
+}
+
+.add-button {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  padding: 1rem;
+  background-color: var(--primary);
+}
+
+.add-button img {
+  height: 0.8rem;
+  width: 0.8rem;
+}
