@@ -1,4 +1,4 @@
-import Add from './AddField';
+import Add from './Add';
 import Item from './Item';
 import './App.css';
 
