@@ -29,3 +29,6 @@
 2. Import Add component from './Add'
 3. Add DOM markup
 4. Introduce useState hook and controlled inputs
+
+### Implementing item component
+1. Steps 1-3 from above
