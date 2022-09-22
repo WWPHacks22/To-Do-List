@@ -3,7 +3,7 @@ import './index.css';
 
 import { useState } from 'react';
 
-function Add({ addHandler }) {
+function Add() {
   // https://reactjs.org/docs/forms.html#:~:text=called%20%E2%80%9Ccontrolled%20components%E2%80%9D.-,Controlled%20Components,-In%20HTML%2C%20form
   // This is a "controlled input"
 
@@ -24,7 +24,7 @@ function Add({ addHandler }) {
         value={text}
         onChange={changeHandler}
       />
-      <button className="add-button" onClick={() => addHandler(text)}>
+      <button className="add-button">
         <img src="icons/add.svg" alt="Add" />
       </button>
     </div>
