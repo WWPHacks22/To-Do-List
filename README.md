@@ -32,3 +32,5 @@
 
 ### Implementing item component
 1. Steps 1-3 from above
+
+### Mapping components
