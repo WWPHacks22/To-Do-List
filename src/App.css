@@ -13,3 +13,8 @@
   flex-direction: column;
   margin: 2rem 0 2rem 0;
 }
+
+.title {
+  font-size: 3.3rem;
+  color: var(--primary);
+}
