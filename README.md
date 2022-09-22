@@ -31,4 +31,10 @@
 4. Introduce useState hook and controlled inputs
 
 ### Implementing item component
+
 1. Steps 1-3 from above
+
+### Implementing add item functionality
+
+1. Implement "add item" function in App.js
+2. Pass addHandler to Add component
