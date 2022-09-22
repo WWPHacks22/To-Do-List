@@ -3,22 +3,24 @@ import './App.css';
 import Item from './Item';
 import Add from './Add';
 
+import { useLocalStorage } from 'usehooks-ts';
+import { v4 as uuidv4 } from 'uuid';
+
 function App() {
   /* Notice how easily we can update the list with minimal code!
-   * I encourage you to mess around with these values
-   * and see what happens. You may need to reload to clear
-   * some visual glitches if the keys are not unique. (see line 38)
    *
    * If we're just using HTML + JS, we would need to duplicate
    * a lot of markup. This is really good for applications
    * where we're displaying a lot of dynamic data (like from a server)
    */
-  const items = [
-    { text: 'abcd', completed: false, id: 'fewafe' },
-    { text: 'efgh', completed: true, id: 'feijwf' },
-    { text: '123', completed: false, id: '234f' },
-    { text: '456', completed: false, id: '2313' },
-  ];
+  const [items, setItems] = useLocalStorage('items', []);
+
+  function addHandler(text) {
+    setItems((currentItems) => [
+      ...currentItems,
+      { text, completed: false, id: uuidv4() },
+    ]);
+  }
 
   return (
     <div className="app">
@@ -40,7 +42,7 @@ function App() {
         </div>
       </div>
       {/* use the component! */}
-      <Add></Add>
+      <Add addHandler={addHandler}></Add>
     </div>
   );
 }
