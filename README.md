@@ -21,6 +21,28 @@
 - Use this [Figma](https://www.figma.com/file/Tpo1tmOipyJ0ILMGYEvuiB/WWPHacks22-To-Do?node-id=0%3A1) for reference
 - Look for branches prefixed with 'step', and you'll be able to see the progression of the app along with some notes!
 
-## Credits
+## Presenter guide:
 
-Contributed by WWPHacks organizer [blueputty01](https://github.com/blueputty01)
+### Implementing add-task component
+
+1. Add index.js in Add
+2. Import Add component from './Add'
+3. Add DOM markup
+4. Introduce useState hook and controlled inputs
+
+### Implementing item component
+
+1. Steps 1-3 from above
+
+### Implementing add item functionality
+
+1. Implement "add item" function in App.js
+2. Pass addHandler to Add component
+
+### Implementing item deletion functionality
+
+1. Similar process as above
+
+### Implementing item toggle functionality
+
+1. Similar process as above
