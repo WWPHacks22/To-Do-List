@@ -1,22 +1,27 @@
-# WWPHacks '22 React Bootcamp
+### WWPHacks '22 React Bootcamp
 
-## Demo To-Do List 📃
+# Demo To-Do List 📃
 
-### Features 🤩:
+## Features 🤩:
 
 - Add, delete, and check off tasks!
 - Persistent state across reloads thanks to `localStorage`
 
-### Background 🤔:
+## Background 🤔:
 
 - WWPHacks '22 Bootcamp Project
 - Introduces beginners to React.js
 
-### Technologies ⚙️:
+## Technologies ⚙️:
 
 - Just React to keep it simple 😃
 
-### How to build?
+## How I started 🚀:
+
+- The framework of this project was built using the command `npx create-react-app my-app`
+- Learn more about Create React App [here](https://reactjs.org/docs/create-a-new-react-app.html)
+
+## How to build 🏗️:
 
 - Use this [Figma](https://www.figma.com/file/Tpo1tmOipyJ0ILMGYEvuiB/WWPHacks22-To-Do?node-id=0%3A1) for reference
 - Look for branches prefixed with 'step', and you'll be able to see the progression of the app along with some notes!
@@ -27,7 +32,7 @@
 
 Implement text box
 
-1. Add index.js in Add
+1. Add index.js in './Add'
 2. Import Add component from './Add'
 3. Add DOM markup
 4. Introduce useState hook and controlled inputs
@@ -54,13 +59,14 @@ Allow for a dynamic list of components to be displayed
 
 1. Implement "add item" function in App.js
 2. Add `useLocalStorage` hook and `uuid` packages
-3. Pass addHandler to Add component
+3. Pass addHandler to `Add` component
 
 ### Implementing item deletion functionality
 
 [Code up to this point](https://github.com/WWPHacks22/to-do-demo-react/tree/step-5-delete-items)
 
-1. Similar process as above
+1. Implement "add item" function in App.js
+2. Pass deleteHandler to `Item` component
 
 ### Implementing item toggle functionality
 
