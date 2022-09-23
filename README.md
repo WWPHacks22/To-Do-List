@@ -9,12 +9,9 @@
 
 ## Background 🤔:
 
-- WWPHacks '22 Bootcamp Project
 - Introduces beginners to React.js
-
-## Technologies ⚙️:
-
-- Just React to keep it simple 😃
+- Learn about state, props, functional components, and more!
+- Code comments and development by [blueputty01](https://github.com/blueputty01) with support from [Siddarth Narayanan](https://github.com/SiddarthNarayanan01)
 
 ## How I started 🚀:
 
