@@ -1,6 +1,6 @@
 import './index.css';
 
-function Item({ text, completed, id, deleteHandler }) {
+function Item({ text, completed, id, toggleHandler, deleteHandler }) {
   return (
     <div className="item">
       <input
@@ -9,6 +9,7 @@ function Item({ text, completed, id, deleteHandler }) {
         checked={completed}
         // use id to link input with label so that we can cross out the text using CSS
         id={`item ${id}`}
+        onChange={() => toggleHandler(id)}
       />
       {/* instead of using the for attribute used in html files, we use htmlFor  */}
       {/* this is because "for" is a keyword in JavaScript */}

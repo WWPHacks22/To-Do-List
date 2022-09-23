@@ -42,3 +42,7 @@
 ### Implementing item deletion functionality
 
 1. Similar process as above
+
+### Implementing item toggle functionality
+
+1. Similar process as above
