@@ -3,6 +3,7 @@
 ## Demo To-Do List 📃
 
 ### Features 🤩:
+
 - Add, delete, and check off tasks!
 - Persistent state across reloads thanks to `localStorage`
 
@@ -15,7 +16,7 @@
 
 - Just React to keep it simple 😃
 
-
 ### How to build?
+
 - Use this [Figma](https://www.figma.com/file/Tpo1tmOipyJ0ILMGYEvuiB/WWPHacks22-To-Do?node-id=0%3A1) for reference
 - Look for branches prefixed with 'step', and you'll be able to see the progression of the app along with some notes!
