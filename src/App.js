@@ -22,6 +22,19 @@ function App() {
     ]);
   }
 
+  function deleteHandler(id) {
+    /*
+     * filter returns an array with elements where the function is true
+     *
+     * here, we're getting all arrays where the id of those objects (el.id) do not match
+     * the id that we want to delete (passed in line 25)
+     *
+     * (this function notation is basically shorthand for typing out the function keyword
+     * , called an "arrow function")
+     */
+    setItems((currentItems) => currentItems.filter((el) => el.id !== id));
+  }
+
   return (
     <div className="app">
       <div className="top">
@@ -37,7 +50,15 @@ function App() {
              * otherwise, bugs can occur...
              * https://reactjs.org/docs/lists-and-keys.html
              */
-            return <Item key={id} id={id} text={text} completed={completed} />;
+            return (
+              <Item
+                key={id}
+                id={id}
+                text={text}
+                completed={completed}
+                deleteHandler={deleteHandler}
+              />
+            );
           })}
         </div>
       </div>

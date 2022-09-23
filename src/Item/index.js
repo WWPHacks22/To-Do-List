@@ -1,6 +1,6 @@
 import './index.css';
 
-function Item({ text, completed, id }) {
+function Item({ text, completed, id, deleteHandler }) {
   return (
     <div className="item">
       <input
@@ -16,7 +16,7 @@ function Item({ text, completed, id }) {
         {text}
       </label>
       {/* button to remove item */}
-      <button className="remove">
+      <button className="remove" onClick={() => deleteHandler(id)}>
         <img src="icons/close.svg" alt="X" />
       </button>
     </div>
