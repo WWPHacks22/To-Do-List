@@ -24,6 +24,8 @@ function Add() {
         value={text}
         onChange={changeHandler}
       />
+      {/* Take note of this path. It's relative to the public folder
+      ie the relative path from the root of the repository would be "public/icons/add.svg" */}
       <button className="add-button">
         <img src="icons/add.svg" alt="Add" />
       </button>
