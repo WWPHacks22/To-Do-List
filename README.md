@@ -38,3 +38,7 @@
 
 1. Implement "add item" function in App.js
 2. Pass addHandler to Add component
+
+### Implementing item deletion functionality
+
+1. Similar process as above
