@@ -39,17 +39,17 @@ Implement text box
 
 ### Implementing item component
 
-Implement component that displays individual tasks
-
 [Code up to this point](https://github.com/WWPHacks22/to-do-demo-react/tree/step-2-item)
+
+Implement component that displays individual tasks
 
 1. Steps 1-3 from above but with './Item'
 
 ### Dynamic item list
 
-Allow for a dynamic list of components to be displayed
-
 [Code up to this point](https://github.com/WWPHacks22/to-do-demo-react/tree/step-3-mapped-items)
+
+Allow for a dynamic list of components to be displayed
 
 1. Add .map to App.js
 
