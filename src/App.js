@@ -67,7 +67,7 @@ function App() {
   return (
     <div className="app">
       <div className="top">
-        <h1 className="title">Hey there, Alex!</h1>
+        <h1 className="title">To-Do List!</h1>
         <div className="list">
           {items.map((item) => {
             const text = item.text;
